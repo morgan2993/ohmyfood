@@ -1,0 +1,1037 @@
+body {
+
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+
+
+	font-size: 30px;
+	background-color: #579c87;
+	text-align: center;
+	margin-bottom: 20px;
+	position: sticky;
+	top:0;
+	z-index: 1;
+	
+
+	
+}
+
+header h1 {
+
+	font-family: 'Roboto black';
+	color: #fdcb46;
+	font-weight: bolder;
+}
+
+main {
+
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	flex-basis: auto;
+	align-items: stretch;
+	margin: auto;
+	
+	
+
+}
+
+.la_note {
+
+    justify-content: space-evenly;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	flex-basis: auto;
+	align-items: stretch;
+	margin: auto;
+	background-color: #fcdfdb;
+	margin-bottom: 20px;
+
+}
+
+
+.menu1 {
+
+	margin: 20px;
+	box-shadow: 2px 2px 5px grey ;
+	background-color: #fcdfdb;
+	height: 450px;
+	width: 350px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	
+}
+
+.menu1 h3 {
+
+	font-family: 'Devonshire', cursive;
+	font-weight: lighter;
+	font-size: 28px;
+	color: #3d1319;
+	margin-top: 0;
+}
+
+.menu1 img {
+
+	width: 20%;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.menu1 p {
+
+	color: #3d1319;
+	font-size: 28px;
+	font-family: 'segoe Print';
+	font-weight: bold;
+
+}
+
+.menu2 {
+
+	margin: 20px;
+	box-shadow: 2px 2px 5px grey ;
+	background-color: #fff5fe;
+	height: 450px;
+	width: 350px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu2 h3 {
+
+	font-family: 'amita', cursive;
+	background: -webkit-gradient(linear,left top,right bottom, from(#c77412), to(#8f5aff));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 24px;
+   
+}
+
+.menu2 p {
+
+	color: #c77412;
+	font-size: 28px;
+	font-weight: bold;
+
+}
+
+.menu3  {
+
+	margin: 20px;
+	box-shadow: 2px 2px 5px grey ;
+	background-color: #f9f9f9;
+	height: 450px;
+	width: 350px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu3 h3 {
+
+	font-size: 28px;
+	font-family: 'Alex Brush', cursive;
+	background: -webkit-gradient(linear,left top,right bottom, from(#0c4ae6), to(#0889fb));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menu3 p {
+
+	color: #0887fb;
+	font-family: 'segoe print';
+	font-size: 28px;
+
+}
+
+
+
+.menu4  {
+
+	margin: 20px;
+	box-shadow: 2px 2px 5px grey ;
+	background-color: #fdfffd;
+	height: 450px;
+	width: 350px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu4 h3 {
+
+	font-family: 'Kaushan Script', cursive;
+	background: -webkit-gradient(linear,left top,right bottom, from(#43973d), to(#beff7f));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 28px;
+}
+
+.menu4 p {
+
+	color: #72bf56;
+	font-family: 'segoe print';
+	font-size: 28px;
+
+}
+
+section {
+
+	
+	margin: 0;
+	overflow: hidden;
+	z-index: 0;
+	
+}
+
+section a {
+
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 400ms;
+	opacity: 10;
+	z-index: 0;
+ 
+
+}
+
+section a:hover {
+
+	transform: scale(1.25);
+}
+
+
+.prochainement {
+
+	
+
+	width: 100%;
+	text-align: center;
+	
+
+	
+	
+}
+
+.prochainement:nth-child(5) /* On prend le deuxième bloc élément */
+{
+	align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+	
+}
+
+
+
+
+footer {
+
+	background-color: #579c87;
+	position: sticky;
+	bottom:0;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+h2 {
+
+	font-family: Roboto Regular;
+	color: #fdcb46;
+	font-weight: Regular;
+	font-size: 25px;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.prochainement h2  {
+
+	margin: 10px auto;
+	display: inline-block;
+	background-color: #579c87 ;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px 30px !important ;
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+
+.mention:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+  }
+  
+  @keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
+
+	.contact:hover {
+		animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+		transform: translate3d(0, 0, 0);
+		backface-visibility: hidden;
+		perspective: 1000px;
+	  }
+	  
+	  @keyframes shake {
+		10%, 90% {
+		  transform: translate3d(-1px, 0, 0);
+		}
+		
+		20%, 80% {
+		  transform: translate3d(2px, 0, 0);
+		}
+	  
+		30%, 50%, 70% {
+		  transform: translate3d(-4px, 0, 0);
+		}
+	  
+		40%, 60% {
+		  transform: translate3d(4px, 0, 0);
+		}
+  }
+
+  @keyframes blink {
+    /**
+     * At the start of the animation the dot
+     * has an opacity of .2
+     */
+    0% {
+      opacity: .2;
+    }
+    /**
+     * At 20% the dot is fully visible and
+     * then fades out slowly
+     */
+    20% {
+      opacity: 1;
+    }
+    /**
+     * Until it reaches an opacity of .2 and
+     * the animation can start again
+     */
+    100% {
+      opacity: .2;
+    }
+}
+
+.prochainement span {
+    /**
+     * Use the blink animation, which is defined above
+     */
+    animation-name: blink;
+    /**
+     * The animation should take 1.4 seconds
+     */
+    animation-duration: 1.4s;
+    /**
+     * It will repeat itself forever
+     */
+    animation-iteration-count: infinite;
+    /**
+     * This makes sure that the starting style (opacity: .2)
+     * of the animation is applied before the animation starts.
+     * Otherwise we would see a short flash or would have
+     * to set the default styling of the dots to the same
+     * as the animation. Same applies for the ending styles.
+     */
+    animation-fill-mode: both;
+}
+
+.prochainement span:nth-child(2) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .2s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .2s;
+}
+
+.prochainement span:nth-child(3) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .4s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .4s;
+}
+
+
+.haut {
+
+   text-align: center;
+}
+
+.haut img {
+
+   
+   width: 20%;
+}
+
+.bas {
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+   
+}
+
+
+.bas figure {
+
+   margin-left: 5px;
+
+/*CSS page 2*/
+   
+}
+
+.la_note h2 {
+
+   text-align: center;
+   font-family: 'Devonshire';
+   font-weight: lighter;
+   font-size: 50px;
+   color: #3d1319;
+}
+
+.la_note h3 {
+
+   text-align: center;
+   font-family: 'Devonshire';
+   font-weight: lighter;
+   font-size: 30px;
+   color: #3d1319;
+}
+
+.la_note h4 {
+
+   text-align: center;
+   font-family: 'Segoe Print';
+   font-weight: 900;
+   font-size: 20px;
+   color: #3d1319;
+}
+
+
+.la_note td {
+
+   padding: 10px 20px;
+
+}
+
+
+.la_note table {
+
+   padding-left: 30px;
+   color: #3d1319;
+   font-family: 'Segoe Print';
+   font-size: 14px;
+   font-weight: 550;
+   
+}
+
+
+.la_note h4 {
+
+	display: flex;
+}
+
+
+.la_note h4:before,
+
+.la_note h4:after {
+  content: '';
+  flex: 1;
+  border-bottom: 4px #3d1319 solid;
+  margin: auto 2.5em;/* 0.5em : espace entre texte et bords */
+  /* + IE */
+  display:inline;
+  height:0;
+}
+
+
+
+
+.la_note h4.animated-link a {
+	color: #333;
+	text-decoration: none;
+	box-decoration-break: slice;
+	line-height: 1.5;
+	background-image: linear-gradient( transparent calc( 100% - 3px ), #3d1319 3px );
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 100%;
+	transition: background-size 0.55s ease-in-out; 
+
+	
+  }
+
+  
+ .la_note h4.animated-link a:hover {
+	background-size: 100% 100%;
+	
+	
+  }
+
+ /*CSS page 3 */ 
+
+  .le_chic {
+
+    justify-content: space-evenly;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	flex-basis: auto;
+	align-items: stretch;
+	margin: auto;
+	background-color: #fff5fe;
+	margin-bottom: 20px;
+	
+	
+
+}
+.le_chic h2 {
+
+	font-family: 'amita', cursive;
+	background: -webkit-gradient(linear,left top,right top, from(#e38913), to(#8f5bfe));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 35px;
+	text-align: center;
+}
+
+.le_chic h3 {
+
+	text-align: center;
+    font-family: 'Devonshire';
+	font-weight: lighter;
+	font-size: 30px;
+	color: #3d1319;
+}
+
+.le_chic .entrée {
+
+	width: 100%;
+}
+
+.le_chic .entrée .animated-link a {
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #e38913;
+}
+
+.le_chic .plat h4 a {
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #a56799;
+}
+
+.le_chic .dessert h4 a {
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #6e4ccc;
+}
+
+td {
+
+	padding: 10px 20px;
+	
+
+}
+
+
+.le_chic .entrée table {
+
+	padding-left: 30px;
+	color: #e38913;
+	font-size: 14px;
+	font-weight: 550;
+	width: 90%;
+	padding-left: 80px;
+	
+}
+
+.le_chic .plat table {
+
+	padding-left: 80px;
+	color: #a56799;
+	width: 90%;
+	font-size: 14px;
+	font-weight: 550;
+	
+}
+
+.le_chic .dessert table {
+
+	padding-left: 30px;
+	color: #6e4ccc;
+	padding-left: 80px;
+	font-size: 14px;
+	font-weight: 550;
+	padding-bottom: 80px;
+	
+}
+
+.le_chic h4 {
+
+	display: flex;
+
+}
+
+
+
+
+.le_chic .entrée h4:before,
+.le_chic .entrée h4:after {
+  content: '';
+  flex: 1;
+  border-bottom: 4px #e38913 solid;
+  margin: auto 2.5em;/* 0.5em : espace entre texte et bords */
+  /* + IE */
+  display:inline;
+  height:0;
+}
+
+.le_chic .plat h4:before,
+.le_chic .plat h4:after {
+  content: '';
+  flex: 1;
+  border-bottom: 4px #a56799 solid;
+  margin: auto 2.5em;/* 0.5em : espace entre texte et bords */
+  /* + IE */
+  display:inline;
+  height:0;
+}
+
+.le_chic .dessert h4:before,
+.le_chic .dessert h4:after {
+  content: '';
+  flex: 1;
+  border-bottom: 4px #6e4ccc solid;
+  margin: auto 2.5em;/* 0.5em : espace entre texte et bords */
+  /* + IE */
+  display:inline;
+  height:0;
+}
+
+.le_chic h4.animated-link a {
+	
+	text-decoration: none;
+	box-decoration-break: slice;
+	line-height: 1.5;
+	background-image: linear-gradient( transparent calc( 100% - 3px ), #e38913 3px );
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 100%;
+	transition: background-size 0.55s ease-in-out; 
+
+	
+  }
+  
+ .le_chic h4.animated-link a:hover {
+	background-size: 100% 100%;
+	
+	
+  }
+
+  
+.le_chic h4.animated-link1 a {
+	
+	text-decoration: none;
+	box-decoration-break: slice;
+	line-height: 1.5;
+	background-image: linear-gradient( transparent calc( 100% - 3px ), #a56799 3px );
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 100%;
+	transition: background-size 0.55s ease-in-out; 
+
+	
+  }
+  
+.le_chic h4.animated-link1 a:hover {
+	background-size: 100% 100%;
+	
+	
+  }
+
+  
+.le_chic h4.animated-link2 a {
+	
+	text-decoration: none;
+	box-decoration-break: slice;
+	line-height: 1.5;
+	background-image: linear-gradient( transparent calc( 100% - 3px ), #6e4ccc 3px );
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 100%;
+	transition: background-size 0.55s ease-in-out; 
+
+	
+  }
+  
+  .le_chic h4.animated-link2 a:hover {
+	background-size: 100% 100%;
+	
+	
+  }
+
+  /*CSS page 4 */
+
+  .délice {
+
+    justify-content: space-evenly;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	flex-basis: auto;
+	align-items: stretch;
+	margin: auto;
+	background-color: #edefef;
+	margin-bottom: 20px;
+	
+	
+
+}
+.haut {
+
+	text-align: center;
+}
+
+.haut img {
+
+	
+	width: 18%;
+}
+
+
+.délice h2 {
+
+	text-align: center;
+	font-family: 'Devonshire';
+	font-weight: lighter;
+	font-size: 50px;
+	color: #3d1319;
+}
+
+.délice h3 {
+
+	text-align: center;
+	font-family: 'Devonshire';
+	font-weight: lighter;
+	font-size: 30px;
+	color: #3d1319;
+}
+
+.délice h4 {
+
+	text-align: center;
+	font-family: 'Segoe Print';
+	font-weight: 900;
+	font-size: 20px;
+	color: #black;
+}
+
+
+.délice .dessert td {
+
+		margin-right: 200px;
+		padding-right: 0px;
+		
+}
+
+.délice table {
+
+	padding-left: 80px;
+	color: black;
+	font-family: 'Segoe Print';
+	font-size: 14px;
+	font-weight: 550;
+	width: 85%;
+	
+	
+}
+
+
+
+.délice h2 {
+
+font-size: 60px;
+font-family: 'Alex Brush', cursive;
+font-weight: bold;
+background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#229df9));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.délice h4 {
+
+	display: flex;
+}
+
+.délice h4:before,
+.délice h4:after {
+  content: '';
+  flex: 1;
+ 
+  margin: auto 2.5em;/* 0.5em : espace entre texte et bords */
+  /* + IE */
+  display:inline;
+  height:0;
+}
+
+.délice .entrée h4:before,
+.délice .entrée h4:after {
+
+	border-bottom: 4px #0228dd solid;
+}
+
+.délice .plat h4:before,
+.délice .plat h4:after {
+
+	border-bottom: 4px #0670f3 solid;
+}
+
+.délice .dessert h4:before,
+.délice .dessert h4:after {
+
+	border-bottom: 4px #229df9 solid;
+}
+
+.délice h4.animated-link a {
+	color: black;
+	text-decoration: none;
+	box-decoration-break: slice;
+	line-height: 1.5;
+	background-image: linear-gradient( transparent calc( 100% - 3px ), black 3px );
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 100%;
+	transition: background-size 0.55s ease-in-out; 
+
+	
+  }
+
+  
+  .délice h4.animated-link a:hover {
+	background-size: 100% 100%;
+	
+	
+  }
+
+ /* CSS page 5 */
+
+ .palette {
+
+    justify-content: space-evenly;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	flex-basis: auto;
+	align-items: stretch;
+	margin: auto;
+	background-color: #fdfffd;
+	margin-bottom: 20px;
+	border: 1px solid ;
+	
+	
+	
+
+}
+
+
+.palette h2 {
+
+	text-align: center;
+	font-family: 'Devonshire';
+	font-weight: lighter;
+	font-size: 50px;
+	color: #3d1319;
+}
+
+.palette h3 {
+
+	text-align: center;
+	font-family: 'Devonshire';
+	font-weight: lighter;
+	font-size: 30px;
+	color: #3d1319;
+}
+
+.palette h4 {
+
+	text-align: center;
+	font-family: 'Segoe Print regular';
+	font-weight: lighter;
+	font-size: 20px;
+	color: #black;
+}
+
+
+
+.palette table {
+
+	padding-left: 80px;
+	color: black;
+	font-family: 'Segoe Print Regular';
+	font-weight: lighter;
+	font-size: 14px;
+	font-weight: 550;
+	width: 90%;
+	
+	
+}
+
+.palette h2 {
+
+	font-family: 'Kaushan Script', cursive;
+	background: -webkit-gradient(linear,left top,right bottom, from(#43973d), to(#beff7f));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
+
+}
+
+
+
+.palette h4 {
+
+	display: flex;
+}
+
+.palette h4:before,
+.palette h4:after {
+  content: '';
+  flex: 1;
+ 
+  margin: auto 2.5em;/* 0.5em : espace entre texte et bords */
+  /* + IE */
+  display:inline;
+  height:0;
+}
+
+.palette .entrée h4:before,
+.palette .entrée h4:after {
+
+	border-bottom: 4px #43973d solid;
+}
+
+.palette .plat h4:before,
+.palette .plat h4:after {
+
+	border-bottom: 4px #43973d solid;
+}
+
+.palette .dessert h4:before,
+.palette .dessert h4:after {
+
+	border-bottom: 4px #43973d solid;
+}
+
+.palette h4.animated-link a {
+	color: black;
+	text-decoration: none;
+	box-decoration-break: slice;
+	line-height: 1.5;
+	background-image: linear-gradient( transparent calc( 100% - 3px ), black 3px );
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 100%;
+	transition: background-size 0.55s ease-in-out; 
+
+	
+  }
+
+  
+.palette h4.animated-link a:hover {
+	background-size: 100% 100%;
+	
+	
+  }
+
+  /*Responsive*/
+
+  @media all and (max-width: 1025px) {
+
+	main {
+
+		width: 100%;
+	}
+
+	.la_note, .le_chic, .délice, .palette {
+
+		min-width: 66%;
+	}
+
+	.la_note h2 {
+
+		padding-top: 1%;
+
+	}
+
+
+
+  }
+
+
+
+
+
+
+
+}
+
