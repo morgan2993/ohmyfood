@@ -4,6 +4,7 @@ body {
 	max-height: 100%;
 	display: flex;
 	flex-direction: column;
+	min-height: -webkit-fill-available;
 }
 
 header {
@@ -1014,7 +1015,9 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 
 	.la_note, .le_chic, .délice, .palette {
 
-		min-width: 66%;
+		min-width: 86%;
+		margin-bottom: auto;
+		
 	}
 
 	.la_note h2 {
@@ -1023,7 +1026,22 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 
 	}
 
+	tbody {
 
+		font-size: 18px;
+	}
+
+.entrée, .plat, .dessert {
+
+	
+	padding-bottom: 50px;
+}
+
+table {
+
+	padding-top: 50px;
+
+}
 
   }
 
