@@ -398,6 +398,29 @@ a {
     animation-delay: .4s;
 }
 
+tr {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+table {
+
+	margin: auto;
+	min-width: 90%;
+
+
+}
+
+
+td {
+
+	padding: 10px 20px;
+ 
+ }
+
 
 .haut {
 
@@ -457,16 +480,9 @@ a {
 }
 
 
-.la_note td {
-
-   padding: 10px 20px;
-
-}
-
-
 .la_note table {
 
-   padding-left: 30px;
+   
    color: #3d1319;
    font-family: 'Segoe Print';
    font-size: 14px;
@@ -531,7 +547,7 @@ a {
 	align-items: stretch;
 	margin: auto;
 	background-color: #fff5fe;
-	margin-bottom: 20px;
+	
 	
 	
 
@@ -555,10 +571,7 @@ a {
 	color: #3d1319;
 }
 
-.le_chic .entrée {
 
-	width: 100%;
-}
 
 .le_chic .entrée .animated-link a {
 
@@ -584,28 +597,23 @@ a {
 	color: #6e4ccc;
 }
 
-td {
 
-	padding: 10px 20px;
-	
 
-}
 
 
 .le_chic .entrée table {
 
-	padding-left: 30px;
 	color: #e38913;
 	font-size: 14px;
 	font-weight: 550;
 	width: 90%;
-	padding-left: 80px;
+	
 	
 }
 
 .le_chic .plat table {
 
-	padding-left: 80px;
+	
 	color: #a56799;
 	width: 90%;
 	font-size: 14px;
@@ -613,14 +621,19 @@ td {
 	
 }
 
+.le_chic .dessert {
+
+	margin-bottom: 50px;
+
+}
+
 .le_chic .dessert table {
 
-	padding-left: 30px;
+	
 	color: #6e4ccc;
-	padding-left: 80px;
 	font-size: 14px;
 	font-weight: 550;
-	padding-bottom: 80px;
+	
 	
 }
 
@@ -787,16 +800,11 @@ td {
 }
 
 
-.délice .dessert td {
 
-		margin-right: 200px;
-		padding-right: 0px;
-		
-}
 
 .délice table {
 
-	padding-left: 80px;
+	
 	color: black;
 	font-family: 'Segoe Print';
 	font-size: 14px;
@@ -806,6 +814,12 @@ td {
 	
 }
 
+
+.délice .dessert {
+
+	margin-bottom: 50px;
+
+}
 
 
 .délice h2 {
@@ -928,7 +942,6 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 
 .palette table {
 
-	padding-left: 80px;
 	color: black;
 	font-family: 'Segoe Print Regular';
 	font-weight: lighter;
@@ -937,6 +950,12 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 	width: 90%;
 	
 	
+}
+
+.palette .dessert {
+
+	margin-bottom: 50px;
+
 }
 
 .palette h2 {
