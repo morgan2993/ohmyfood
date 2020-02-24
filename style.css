@@ -5,6 +5,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: -webkit-fill-available;
+	margin: 0;
+	
 }
 
 .titre {
@@ -32,15 +34,15 @@ header {
 
 header h1 {
 
-	font-family: 'Roboto black';
+	font-family: 'Roboto Black';
 	color: #fdcb46;
-	font-weight: bolder;
+	font-weight: 900;
 }
 
 main {
 
     justify-content: space-evenly;
-    width: 50%;
+    width: 800px;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -227,9 +229,9 @@ section a:hover {
 	
 }
 
-.prochainement:nth-child(5) /* On prend le deuxième bloc élément */
+.prochainement:nth-child(5) 
 {
-	align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+	align-self: flex-end; 
 	
 }
 
@@ -389,13 +391,7 @@ a {
     animation-delay: .4s;
 }
 
-tr {
 
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
-}
 
 table {
 
@@ -412,6 +408,7 @@ td {
  
  }
 
+ 
 
 .haut {
 
@@ -808,7 +805,7 @@ td {
 	font-family: 'Segoe Print';
 	font-weight: 900;
 	font-size: 20px;
-	color: #black;
+	color: black;
 }
 
 
@@ -821,10 +818,12 @@ td {
 	font-family: 'Segoe Print';
 	font-size: 14px;
 	font-weight: 550;
-	width: 85%;
+	width: 90%;
+	
 	
 	
 }
+
 
 
 .délice .dessert {
@@ -944,10 +943,9 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 .palette h4 {
 
 	text-align: center;
-	font-family: 'Segoe Print regular';
-	font-weight: lighter;
+	font-family: 'Segoe Print';
 	font-size: 20px;
-	color: #black;
+	color: black;
 }
 
 
@@ -955,7 +953,7 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 .palette table {
 
 	color: black;
-	font-family: 'Segoe Print Regular';
+	font-family: 'Segoe Print';
 	font-weight: lighter;
 	font-size: 14px;
 	font-weight: 550;
