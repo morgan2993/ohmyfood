@@ -1044,22 +1044,32 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 		width: 100%;
 	}
 
+	.menu1 h3,  .menu3 h3, .menu4 h3  {
+
+		font-size: 35px;
+	}
+
+	.menu2 h3 {
+
+		font-size: 30px;
+	}
+
 	.la_note, .le_chic, .délice, .palette {
 
-		min-width: 86%;
+		min-width: 90%;
 		margin-bottom: auto;
 		
 	}
 
 	.la_note h2 {
 
-		padding-top: 1%;
+		padding-top: 3%;
 
 	}
 
 	tbody {
 
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 .entrée, .plat, .dessert {
