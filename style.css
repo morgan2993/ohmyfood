@@ -464,7 +464,7 @@ td {
    color: #3d1319;
    font-family: 'Segoe Print';
    font-size: 14px;
-   font-weight: 550;
+   
    
 }
 
@@ -584,7 +584,6 @@ td {
 
 	color: #e38913;
 	font-size: 14px;
-	font-weight: 550;
 	width: 90%;
 	
 	
@@ -596,8 +595,7 @@ td {
 	color: #a56799;
 	width: 90%;
 	font-size: 14px;
-	font-weight: 550;
-	
+		
 }
 
 .le_chic .dessert {
@@ -611,9 +609,7 @@ td {
 	
 	color: #6e4ccc;
 	font-size: 14px;
-	font-weight: 550;
-	
-	
+		
 }
 
 .le_chic h4 {
@@ -788,11 +784,8 @@ td {
 	color: black;
 	font-family: 'Segoe Print';
 	font-size: 14px;
-	font-weight: 550;
 	width: 90%;
-	
-	
-	
+		
 }
 
 
@@ -927,7 +920,6 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 	font-family: 'Segoe Print';
 	font-weight: lighter;
 	font-size: 14px;
-	font-weight: 550;
 	width: 90%;
 	
 	
@@ -1063,11 +1055,4 @@ table {
 
   }
 
-
-
-
-
-
-
-}
 
