@@ -418,7 +418,6 @@ td {
 .la_note {
 
     justify-content: space-evenly;
-    width: 35%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -519,7 +518,6 @@ td {
   .le_chic {
 
     justify-content: space-evenly;
-    width: 35%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -724,7 +722,6 @@ td {
   .delice {
 
     justify-content: space-evenly;
-    width: 35%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -871,7 +868,6 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
  .palette {
 
     justify-content: space-evenly;
-    width: 35%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1022,7 +1018,7 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 
 	.la_note, .le_chic, .delice, .palette {
 
-		min-width: 90%;
+		max-width: 90%;
 		margin-bottom: auto;
 		
 	}
@@ -1055,6 +1051,12 @@ table {
 	margin-top: 100px;
 
 }
+
+header{ 
+	
+	font-size: 15px;
+
+} 
 
   }
 
