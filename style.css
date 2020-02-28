@@ -1,12 +1,10 @@
 body {
 
-	max-width: 100%;
-	max-height: 100%;
 	display: flex;
 	flex-direction: column;
 	min-height: -webkit-fill-available;
 	margin: 0;
-	
+		
 }
 
 .titre {
@@ -14,6 +12,7 @@ body {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 35px;
+	color: black;
 
 }
 
@@ -72,7 +71,7 @@ main {
 	
 }
 
-.menu1 h3 {
+.menu1 h2 {
 
 	font-family: 'Devonshire', cursive;
 	font-weight: lighter;
@@ -110,7 +109,7 @@ main {
 	justify-content: center;
 }
 
-.menu2 h3 {
+.menu2 h2 {
 
 	font-family: 'amita', cursive;
 	background: -webkit-gradient(linear,left top,right bottom, from(#c77412), to(#8f5aff));
@@ -141,7 +140,7 @@ main {
 	justify-content: center;
 }
 
-.menu3 h3 {
+.menu3 h2 {
 
 	font-size: 28px;
 	font-family: 'Alex Brush', cursive;
@@ -173,7 +172,7 @@ main {
 	justify-content: center;
 }
 
-.menu4 h3 {
+.menu4 h2 {
 
 	font-family: 'Kaushan Script', cursive;
 	background: -webkit-gradient(linear,left top,right bottom, from(#43973d), to(#beff7f));
@@ -213,6 +212,7 @@ section a {
 section a:hover {
 
 	transform: scale(1.25);
+	opacity: 0.6;
 }
 
 
@@ -247,10 +247,10 @@ footer {
 	bottom:0;
 	display: flex;
 	justify-content: space-between;
-	
+		
 }
 
-h2 {
+p {
 
 	font-family: 'Roboto';
 	color: #fdcb46;
@@ -261,7 +261,7 @@ h2 {
 	
 }
 
-.prochainement h2  {
+.prochainement p  {
 
 	margin: 10px auto;
 	display: inline-block;
@@ -303,6 +303,7 @@ a {
 	}
   }
 
+  
 	.contact:hover {
 		animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 		transform: translate3d(0, 0, 0);
@@ -312,19 +313,19 @@ a {
 	  
 	  @keyframes shake {
 		10%, 90% {
-		  transform: translate3d(-1px, 0, 0);
+		  transform: translate3d(-3px, 0, 0);
 		}
 		
 		20%, 80% {
-		  transform: translate3d(2px, 0, 0);
+		  transform: translate3d(0px, 0, 0);
 		}
 	  
 		30%, 50%, 70% {
-		  transform: translate3d(-4px, 0, 0);
+		  transform: translate3d(-3px, 0, 0);
 		}
 	  
 		40%, 60% {
-		  transform: translate3d(4px, 0, 0);
+		  transform: translate3d(0px, 0, 0);
 		}
   }
 
@@ -450,7 +451,7 @@ td {
    color: #3d1319;
 }
 
-.la_note h4 {
+.la_note h3, .titre_bas {
 
    text-align: center;
    font-family: 'Segoe Print';
@@ -471,15 +472,15 @@ td {
 }
 
 
-.la_note h4 {
+.la_note h3 {
 
 	display: flex;
 }
 
 
-.la_note h4:before,
+.la_note h3:before,
 
-.la_note h4:after {
+.la_note h3:after {
   content: '';
   flex: 1;
   border-bottom: 4px #3d1319 solid;
@@ -492,7 +493,7 @@ td {
 
 
 
-.la_note h4.animated-link a {
+.la_note h3.animated-link a {
 	color: #333;
 	text-decoration: none;
 	box-decoration-break: slice;
@@ -507,7 +508,7 @@ td {
   }
 
   
- .la_note h4.animated-link a:hover {
+ .la_note h3.animated-link a:hover {
 	background-size: 100% 100%;
 	
 	
@@ -548,13 +549,13 @@ td {
 	text-align: center;
     font-family: 'Devonshire';
 	font-weight: lighter;
-	font-size: 30px;
+	
 	color: #3d1319;
 }
 
 
 
-.le_chic .entrée .animated-link a {
+.le_chic .entree .animated-link a {
 
 	text-align: center;
 	font-weight: bold;
@@ -562,7 +563,7 @@ td {
 	color: #e38913;
 }
 
-.le_chic .plat h4 a {
+.le_chic .plat h3 a {
 
 	text-align: center;
 	font-weight: bold;
@@ -570,7 +571,7 @@ td {
 	color: #a56799;
 }
 
-.le_chic .dessert h4 a {
+.le_chic .dessert h3 a {
 
 	text-align: center;
 	font-weight: bold;
@@ -582,7 +583,7 @@ td {
 
 
 
-.le_chic .entrée table {
+.le_chic .entree table {
 
 	color: #e38913;
 	font-size: 14px;
@@ -614,7 +615,7 @@ td {
 		
 }
 
-.le_chic h4 {
+.le_chic h3 {
 
 	display: flex;
 
@@ -623,8 +624,8 @@ td {
 
 
 
-.le_chic .entrée h4:before,
-.le_chic .entrée h4:after {
+.le_chic .entree h3:before,
+.le_chic .entree h3:after {
   content: '';
   flex: 1;
   border-bottom: 4px #e38913 solid;
@@ -634,8 +635,8 @@ td {
   height:0;
 }
 
-.le_chic .plat h4:before,
-.le_chic .plat h4:after {
+.le_chic .plat h3:before,
+.le_chic .plat h3:after {
   content: '';
   flex: 1;
   border-bottom: 4px #a56799 solid;
@@ -645,8 +646,8 @@ td {
   height:0;
 }
 
-.le_chic .dessert h4:before,
-.le_chic .dessert h4:after {
+.le_chic .dessert h3:before,
+.le_chic .dessert h3:after {
   content: '';
   flex: 1;
   border-bottom: 4px #6e4ccc solid;
@@ -656,7 +657,7 @@ td {
   height:0;
 }
 
-.le_chic h4.animated-link a {
+.le_chic h3.animated-link a {
 	
 	text-decoration: none;
 	box-decoration-break: slice;
@@ -670,14 +671,14 @@ td {
 	
   }
   
- .le_chic h4.animated-link a:hover {
+ .le_chic h3.animated-link a:hover {
 	background-size: 100% 100%;
 	
 	
   }
 
   
-.le_chic h4.animated-link1 a {
+.le_chic h3.animated-link1 a {
 	
 	text-decoration: none;
 	box-decoration-break: slice;
@@ -691,14 +692,14 @@ td {
 	
   }
   
-.le_chic h4.animated-link1 a:hover {
+.le_chic h3.animated-link1 a:hover {
 	background-size: 100% 100%;
 	
 	
   }
 
   
-.le_chic h4.animated-link2 a {
+.le_chic h3.animated-link2 a {
 	
 	text-decoration: none;
 	box-decoration-break: slice;
@@ -712,7 +713,7 @@ td {
 	
   }
   
-  .le_chic h4.animated-link2 a:hover {
+  .le_chic h3.animated-link2 a:hover {
 	background-size: 100% 100%;
 	
 	
@@ -720,7 +721,7 @@ td {
 
   /*CSS page 4 */
 
-  .délice {
+  .delice {
 
     justify-content: space-evenly;
     width: 35%;
@@ -750,7 +751,7 @@ td {
 }
 
 
-.délice h2 {
+.delice h2 {
 
 	text-align: center;
 	font-family: 'Devonshire';
@@ -759,7 +760,7 @@ td {
 	color: #3d1319;
 }
 
-.délice h3 {
+.delice h3 {
 
 	text-align: center;
 	font-family: 'Devonshire';
@@ -768,7 +769,7 @@ td {
 	color: #3d1319;
 }
 
-.délice h4 {
+.delice h3 {
 
 	text-align: center;
 	font-family: 'Segoe Print';
@@ -780,7 +781,7 @@ td {
 
 
 
-.délice table {
+.delice table {
 
 	
 	color: black;
@@ -792,14 +793,14 @@ td {
 
 
 
-.délice .dessert {
+.delice .dessert {
 
 	margin-bottom: 50px;
 
 }
 
 
-.délice h2 {
+.delice h2 {
 
 font-size: 60px;
 font-family: 'Alex Brush', cursive;
@@ -810,13 +811,13 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 
 }
 
-.délice h4 {
+.delice h3 {
 
 	display: flex;
 }
 
-.délice h4:before,
-.délice h4:after {
+.delice h3:before,
+.delice h3:after {
   content: '';
   flex: 1;
  
@@ -826,25 +827,25 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
   height:0;
 }
 
-.délice .entrée h4:before,
-.délice .entrée h4:after {
+.delice .entree h3:before,
+.delice .entree h3:after {
 
 	border-bottom: 4px #0228dd solid;
 }
 
-.délice .plat h4:before,
-.délice .plat h4:after {
+.delice .plat h3:before,
+.delice .plat h3:after {
 
 	border-bottom: 4px #0670f3 solid;
 }
 
-.délice .dessert h4:before,
-.délice .dessert h4:after {
+.delice .dessert h3:before,
+.delice .dessert h3:after {
 
 	border-bottom: 4px #229df9 solid;
 }
 
-.délice h4.animated-link a {
+.delice h3.animated-link a {
 	color: black;
 	text-decoration: none;
 	box-decoration-break: slice;
@@ -859,7 +860,7 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
   }
 
   
-  .délice h4.animated-link a:hover {
+  .delice h3.animated-link a:hover {
 	background-size: 100% 100%;
 	
 	
@@ -906,7 +907,7 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 	color: #3d1319;
 }
 
-.palette h4 {
+.palette h3 {
 
 	text-align: center;
 	font-family: 'Segoe Print';
@@ -945,13 +946,13 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 
 
 
-.palette h4 {
+.palette h3 {
 
 	display: flex;
 }
 
-.palette h4:before,
-.palette h4:after {
+.palette h3:before,
+.palette h3:after {
   content: '';
   flex: 1;
  
@@ -961,25 +962,25 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
   height:0;
 }
 
-.palette .entrée h4:before,
-.palette .entrée h4:after {
+.palette .entree h3:before,
+.palette .entree h3:after {
 
 	border-bottom: 4px #43973d solid;
 }
 
-.palette .plat h4:before,
-.palette .plat h4:after {
+.palette .plat h3:before,
+.palette .plat h3:after {
 
 	border-bottom: 4px #43973d solid;
 }
 
-.palette .dessert h4:before,
-.palette .dessert h4:after {
+.palette .dessert h3:before,
+.palette .dessert h3:after {
 
 	border-bottom: 4px #43973d solid;
 }
 
-.palette h4.animated-link a {
+.palette h3.animated-link a {
 	color: black;
 	text-decoration: none;
 	box-decoration-break: slice;
@@ -994,7 +995,7 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
   }
 
   
-.palette h4.animated-link a:hover {
+.palette h3.animated-link a:hover {
 	background-size: 100% 100%;
 	
 	
@@ -1019,7 +1020,7 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 		font-size: 30px;
 	}
 
-	.la_note, .le_chic, .délice, .palette {
+	.la_note, .le_chic, .delice, .palette {
 
 		min-width: 90%;
 		margin-bottom: auto;
@@ -1037,7 +1038,7 @@ background: -webkit-gradient(linear,left top,right bottom, from(#0228dd), to(#22
 		font-size: 20px;
 	}
 
-.entrée, .plat, .dessert {
+.entree, .plat, .dessert {
 
 	
 	padding-bottom: 50px;
