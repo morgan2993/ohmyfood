@@ -25,6 +25,7 @@ header {
 	text-align: center;
 	margin-bottom: 20px;
 	position: sticky;
+	position: -webkit-sticky;
 	top:0;
 	z-index: 1;
 	
@@ -242,6 +243,7 @@ footer {
 
 	background-color: #579c87;
 	position: sticky;
+	position: -webkit-sticky;
 	bottom:0;
 	display: flex;
 	justify-content: space-between;
